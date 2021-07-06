@@ -1,26 +1,20 @@
 {
   "files": {
-    "main.css": "/tgs2lottie-web/static/css/main.9c407309.chunk.css",
+    "main.css": "/tgs2lottie-web/static/css/main.0152a00f.chunk.css",
     "main.js": "/tgs2lottie-web/static/js/main.07f43b7e.chunk.js",
-    "main.js.map": "/tgs2lottie-web/static/js/main.07f43b7e.chunk.js.map",
     "runtime-main.js": "/tgs2lottie-web/static/js/runtime-main.bb144366.js",
-    "runtime-main.js.map": "/tgs2lottie-web/static/js/runtime-main.bb144366.js.map",
-    "static/css/2.dc80d7bf.chunk.css": "/tgs2lottie-web/static/css/2.dc80d7bf.chunk.css",
+    "static/css/2.f2e09ca7.chunk.css": "/tgs2lottie-web/static/css/2.f2e09ca7.chunk.css",
     "static/js/2.a0f4c34a.chunk.js": "/tgs2lottie-web/static/js/2.a0f4c34a.chunk.js",
-    "static/js/2.a0f4c34a.chunk.js.map": "/tgs2lottie-web/static/js/2.a0f4c34a.chunk.js.map",
     "static/js/3.20c75bba.chunk.js": "/tgs2lottie-web/static/js/3.20c75bba.chunk.js",
-    "static/js/3.20c75bba.chunk.js.map": "/tgs2lottie-web/static/js/3.20c75bba.chunk.js.map",
     "index.html": "/tgs2lottie-web/index.html",
-    "static/css/2.dc80d7bf.chunk.css.map": "/tgs2lottie-web/static/css/2.dc80d7bf.chunk.css.map",
-    "static/css/main.9c407309.chunk.css.map": "/tgs2lottie-web/static/css/main.9c407309.chunk.css.map",
     "static/js/2.a0f4c34a.chunk.js.LICENSE.txt": "/tgs2lottie-web/static/js/2.a0f4c34a.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/tgs2lottie-web/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.bb144366.js",
-    "static/css/2.dc80d7bf.chunk.css",
+    "static/css/2.f2e09ca7.chunk.css",
     "static/js/2.a0f4c34a.chunk.js",
-    "static/css/main.9c407309.chunk.css",
+    "static/css/main.0152a00f.chunk.css",
     "static/js/main.07f43b7e.chunk.js"
   ]
 }
