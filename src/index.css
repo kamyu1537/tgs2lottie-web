@@ -4,6 +4,8 @@ body, #root {
 
   width: 100vw;
   min-height: 100vh;
+
+  background: rgb(30, 30, 30);
 }
 
 * {
@@ -26,6 +28,25 @@ body, #root {
 
 .app > .ui.card {
   width: 300px;
+
+  background: rgb(23, 23, 23);
+  color: lightgray !important;
+}
+
+.ui.header {
+  color: lightgray !important;
+}
+
+.field > label {
+  color: lightgray !important;
+}
+
+div.meta > a {
+  color: lightgray !important;
+}
+
+div.meta > a:hover {
+  color: rgb(165, 165, 165) !important;
 }
 
 @media screen and (max-width: 300px) {
