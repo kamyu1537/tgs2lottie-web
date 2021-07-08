@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tgs2lottie-web/static/css/main.0152a00f.chunk.css",
-    "main.js": "/tgs2lottie-web/static/js/main.07f43b7e.chunk.js",
+    "main.js": "/tgs2lottie-web/static/js/main.16e0e9e2.chunk.js",
     "runtime-main.js": "/tgs2lottie-web/static/js/runtime-main.bb144366.js",
     "static/css/2.f2e09ca7.chunk.css": "/tgs2lottie-web/static/css/2.f2e09ca7.chunk.css",
     "static/js/2.a0f4c34a.chunk.js": "/tgs2lottie-web/static/js/2.a0f4c34a.chunk.js",
@@ -15,6 +15,6 @@
     "static/css/2.f2e09ca7.chunk.css",
     "static/js/2.a0f4c34a.chunk.js",
     "static/css/main.0152a00f.chunk.css",
-    "static/js/main.07f43b7e.chunk.js"
+    "static/js/main.16e0e9e2.chunk.js"
   ]
 }
