@@ -1,8 +1,7 @@
-import React, { useCallback, useRef, useState } from 'react';
-import { Form, Header, Button, Card, Icon, Divider } from 'semantic-ui-react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { Button, Card, Divider, Form, Header, Icon } from 'semantic-ui-react';
 import cogoToast from 'cogo-toast';
 import { convert } from 'tgs2lottie';
-import { useEffect } from 'react';
 
 function App() {
   const [, update] = useState({});
@@ -12,8 +11,7 @@ function App() {
   const getFilename = (): string | undefined => {
     const paths = fileRef.current?.value.replace(/\\/g, '/').split('/');
     if (paths === undefined) return undefined;
-    const filename = paths[paths.length - 1].split('.').slice(0, -1).join('.');
-    return filename;
+    return paths[paths.length - 1].split('.').slice(0, -1).join('.');
   }
 
   const download = useCallback(async () => {
@@ -88,7 +86,11 @@ function App() {
 
           <Card.Meta style={{ textAlign: 'right' }}>
             <Divider style={{ marginBottom: 8 }} />
-            <a href="https://github.com/kamyu1537/tgs2lottie.git">
+            <a target="_blank" rel="noreferrer" href="https://npmjs.com/package/tgs2lottie">
+              <Icon name="npm" /> npm
+            </a>
+            <span style={{ margin: '2px 6px 2px 4px', borderLeft: '1px solid rgba(255,255,255,0.3)' }} />
+            <a target="_blank" rel="noreferrer" href="https://github.com/kamyu1537/tgs2lottie.git">
               <Icon name="github" /> Github
             </a>
           </Card.Meta>
