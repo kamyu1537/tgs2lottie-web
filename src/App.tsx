@@ -66,7 +66,7 @@ function App() {
   }, [fileRef]);
 
   return (
-    <div className="dark:bg-gray-900 rounded-lg shadow-2xl px-7 py-2">
+    <div className="card dark:bg-gray-900 rounded-lg shadow-2xl px-7 py-2">
       <h1 className="text-center text-3xl my-4">TGS2Lottie</h1>
 
       <form className="flex flex-col gap-2" onSubmit={(e) => e.preventDefault()}>

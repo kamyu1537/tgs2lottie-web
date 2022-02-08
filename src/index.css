@@ -14,6 +14,10 @@ body {
     height: 100vh;
 }
 
+.card {
+    background-color: white;
+}
+
 #root {
     @apply h-full justify-center items-center flex bg-gray-200 dark:bg-gray-800;
 }
