@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Button, Card, Divider, Form, Header, Icon } from 'semantic-ui-react';
-import cogoToast from 'cogo-toast';
+import cogoToast from 'rb-cogo-toast';
 import { convert } from 'tgs2lottie';
 
 function App() {
@@ -72,7 +72,7 @@ function App() {
           <Form onSubmit={(e) => e.preventDefault()}>
             <Form.Field>
               <label>Telegram Animated Sticker (.tgs):</label>
-              <Button size="tiny" type="" onClick={() => fileRef.current?.click()} positive>Select file</Button>
+              <Button size="tiny" type="button" onClick={() => fileRef.current?.click()} positive>Select file</Button>
               {getFilename() ? `${getFilename()}.tgs` : 'Please select a file'}
 
               <input ref={fileRef} type="file" accept=".tgs" multiple={false} hidden={true} onChange={() => update({})} />
