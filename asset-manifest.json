@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/tgs2lottie-web/static/css/main.67cab035.css",
-    "main.js": "/tgs2lottie-web/static/js/main.d33f5110.js",
+    "main.css": "/tgs2lottie-web/static/css/main.4aa00503.css",
+    "main.js": "/tgs2lottie-web/static/js/main.647703a7.js",
     "static/js/27.bee31362.chunk.js": "/tgs2lottie-web/static/js/27.bee31362.chunk.js",
     "index.html": "/tgs2lottie-web/index.html"
   },
   "entrypoints": [
-    "static/css/main.67cab035.css",
-    "static/js/main.d33f5110.js"
+    "static/css/main.4aa00503.css",
+    "static/js/main.647703a7.js"
   ]
 }
